@@ -3,7 +3,7 @@ from Cards import Card
 
 class TopRosters:
 
-    size = 3
+    size = 1
 
     def __init__(self, ):
         self.array = []

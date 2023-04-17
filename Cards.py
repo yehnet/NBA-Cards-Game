@@ -42,3 +42,7 @@ class playerCards:
                 break
 
         self.players.pop(found)
+
+    def removeRoster(self, playerNames):
+        for player in playerNames.split(', '):
+            self.removePlayer(player)

@@ -49,4 +49,4 @@ def getLineup(cap, cards):
             roster = roster[:-2]
             rosters.insertElement((points, roster))
 
-    rosters.printRosters()
+    return rosters.printRosters()
